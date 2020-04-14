@@ -1,0 +1,11 @@
+Resources:
+  MYEC2EXAMPLE:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-43874721 # Amazon Linux AMI in Sydney
+      Tags:
+        - Key: Name
+          Value: A simple example
+        - Key: Department
+          Value: Personal Learning and Research
