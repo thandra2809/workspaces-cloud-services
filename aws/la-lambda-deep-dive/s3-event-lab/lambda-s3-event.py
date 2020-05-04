@@ -12,5 +12,6 @@ def lambda_handler(event, context):
     print("Bucket: " + bucket)
     print("Region: " + region)
     print("User is " + user)
+    print("Hi POriya added this")
 
     return(object)
